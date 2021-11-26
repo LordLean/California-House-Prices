@@ -1,6 +1,6 @@
 # Introduction to Machine Learning CW2, Part 2: Regression Model 
 
-For part 2 of this coursework, we were tasked with creating and training a regression model on the California House Prices Dataset [[1]](https://econpapers.repec.org/article/eeestapro/v_3a33_3ay_3a1997_3ai_3a3_3ap_3a291-297.htm). The dataset contains 20,640 observations from the 1990 Census and details 10 distinct features with the median house value being the target variable. The 10 features are listed below:
+For project details creating and training a regression model on the California House Prices Dataset [[1]](https://econpapers.repec.org/article/eeestapro/v_3a33_3ay_3a1997_3ai_3a3_3ap_3a291-297.htm). The dataset contains 20,640 observations from the 1990 Census and details 10 distinct features with the median house value being the target variable. The 10 features are listed below:
 
 * **longitude**: longitude of the block group
 * **latitude**: latitude of the block group
@@ -13,16 +13,6 @@ For part 2 of this coursework, we were tasked with creating and training a regre
 * **ocean proximity**: proximity to the ocean of the block group
 * **median house value**: median value of the houses of the block group
 
-
-In lieu of a requirements file, below details the versions of the dependencies used for this project.
-* python==3.7.12
-* pandas==1.1.5
-* numpy==1.19.5
-* matplotlib==3.2.2
-* seaborn==0.11.2
-* torch==1.10.0+cu111
-* sklearn==1.0.1
-* pickle==4.0
 
 ## **Regressor class** 
 - Inheritance: `torch.nn.Module`
