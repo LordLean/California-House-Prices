@@ -97,13 +97,13 @@ print(rmse)
 regressor.plot_performance()
 ```
 
-A gridsearch was undertaken to optimize hyperparameters of the regressor network. Partial results of this gridsearch are shown in the parallel coordinates plots below and a spreadsheet of the full results are located [here](https://gitlab.doc.ic.ac.uk/lab2122_autumn/Neural_Networks_37/-/blob/master/Part2/grid_search.csv).
+A gridsearch was undertaken to optimize hyperparameters of the regressor network. Partial results of this gridsearch are shown in the parallel coordinates plots below and a spreadsheet of the full results are located [here](https://github.com/LordLean/California-House-Prices/blob/main/Images/grid_search.csv).
 
 Trimmed results (rmse<100000):
-![](https://gitlab.doc.ic.ac.uk/lab2122_autumn/Neural_Networks_37/-/raw/master/Part2/total.png)
+![](https://raw.githubusercontent.com/LordLean/California-House-Prices/main/Images/total.png)
 
 Best performers, also tabulated below:
-![](https://gitlab.doc.ic.ac.uk/lab2122_autumn/Neural_Networks_37/-/raw/master/Part2/best.png)
+![](https://raw.githubusercontent.com/LordLean/California-House-Prices/main/Images/best.png)
 
 | optimizer   |   learning_rate | regularizer   | regularizer_lambda   |   batch_size |    rmse |   epoch |   train_time (s) |
 |:------------|----------------:|:--------------|:---------------------|-------------:|--------:|--------:|-------------:|
