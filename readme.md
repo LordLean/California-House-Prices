@@ -1,5 +1,3 @@
-# Introduction to Machine Learning CW2, Part 2: Regression Model 
-
 For project details creating and training a regression model on the California House Prices Dataset [[1]](https://econpapers.repec.org/article/eeestapro/v_3a33_3ay_3a1997_3ai_3a3_3ap_3a291-297.htm). The dataset contains 20,640 observations from the 1990 Census and details 10 distinct features with the median house value being the target variable. The 10 features are listed below:
 
 * **longitude**: longitude of the block group
